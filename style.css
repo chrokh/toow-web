@@ -1,0 +1,44 @@
+p, li {
+  color: #444;
+}
+
+h1 {
+  font-size: calc(32px + 1.5vw);
+  color: #000;
+}
+
+li em,
+p em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.btn {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+
+.text-key {
+  color: #198754;
+  /*
+  background: #eee;
+  color: #black;
+  padding-left: 6px;
+  padding-right: 6px;
+  */
+}
+
+.fs-7 {
+  font-size: 12px;
+}
+
