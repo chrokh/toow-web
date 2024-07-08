@@ -42,3 +42,16 @@ h1 em {
   font-size: 12px;
 }
 
+a:not(.btn),
+a:not(.btn):hover,
+a:not(.btn):visited,
+a:not(.btn):active
+{
+  color: #198754;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:not(.btn):hover {
+  text-decoration: underline;
+}
