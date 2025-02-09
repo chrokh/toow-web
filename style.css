@@ -1,21 +1,31 @@
-p, li {
-  color: #444;
+html, body {
+  background: #fff;
+}
+
+p, li, h1, h2 {
+  color: #000;
 }
 
 h1 {
   font-size: calc(32px + 1.5vw);
-  color: #000;
-}
-
-li em,
-p em {
-  font-weight: bold;
-  font-style: normal;
 }
 
 h1 em {
   font-weight: bold;
   font-style: normal;
+}
+
+p em {
+  font-style: normal;
+  background: yellow;
+  color: black;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+li em {
+  font-style: normal;
+  font-weight: bold;
 }
 
 .btn {
@@ -29,13 +39,11 @@ h1 em {
 
 
 .text-key {
-  color: #198754;
-  /*
-  background: #eee;
-  color: #black;
+  /*color: #198754;*/
+  background: #fff;
+  color: black;
   padding-left: 6px;
   padding-right: 6px;
-  */
 }
 
 .fs-7 {
