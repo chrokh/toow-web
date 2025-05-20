@@ -15,6 +15,11 @@ h1 em {
   font-style: normal;
 }
 
+h2 {
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+
 p em {
   font-style: normal;
   background: yellow;
